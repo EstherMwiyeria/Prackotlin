@@ -1,10 +1,10 @@
 fun main() {
-    var names = arrayOf("Regina", "Esther")
-    var phonenumber = arrayOf(794363077,757197885)
+    var names = arrayOf("Esther","Mwiyeria")
+    var phonenumbers = arrayOf( 757197885,706132130)
     val genderFemale = true
 
-    var details = arrayOf("details", names[0], phonenumber[0], genderFemale)
-    var list = arrayOf("list", names[1], phonenumber[1], !genderFemale)
+    var details = arrayOf("details",names[0],phonenumbers[0],!genderFemale)
+    var list = arrayOf("list",names[1],phonenumbers[1],genderFemale)
 
     println(details.contentToString())
     println(list.contentToString())
